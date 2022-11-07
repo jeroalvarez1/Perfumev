@@ -1,0 +1,168 @@
+body{
+  background-image: url("../img/fondo.png");
+}
+.principal{
+  width: 100%;
+}
+.navbar-brand{
+  font-weight: bold;
+}
+img{
+  height: 250px;
+  width: 250px;
+}
+.parte{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.secciones {
+  margin: 2%;
+}
+.caja_prin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+.caja-art{
+  background-color: rgba(28, 135, 223, 0.938);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.caja-art-pro{
+  background-color: rgba(187, 93, 124, 0.945);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.caja_selec{
+  height: 70px;
+  width: 100%;  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.selector{
+  height: 100px;
+}
+
+.heigth100{
+  height:60%;
+}
+.selector-partes-1{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.titulo_pro{
+  font-family: 'Anton', sans-serif;
+  font-size: xx-large;
+  background-color: rgba(255, 255, 255, 0.822);
+  width: 34%;
+  text-align: center;
+  color: rgba(187, 93, 124, 0.945);
+}
+.titulo_art{
+  font-family: 'Anton', sans-serif;
+  font-size: xx-large;
+  background-color: rgba(255, 255, 255, 0.822);
+  width: 25%;
+  text-align: center;
+  color: rgba(18, 155, 155, 0.938);
+}
+.selector-partes-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.822);
+}
+.operaciones{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pri_tabla{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tablas{
+  display: flex;
+  justify-content: center;
+}
+thead{
+  font-weight: 900;
+}
+.articulo_alta{
+  height: 720px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.alta-2{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  width: 100%;
+  height: 95%;
+}
+.titulo_alta{
+  font-family: 'Varela Round', sans-serif;
+  font-size: xx-large;
+  color: rgba(255, 255, 255, 0.884);
+  margin: 1%;
+  background-color: rgb(28, 135, 223);
+  width: 80%;
+  text-align: center;
+}
+.titulo_alta_pro{
+  font-family: 'Varela Round', sans-serif;
+  font-size: xx-large;
+  color: rgba(255, 255, 255, 0.884);
+  margin: 1%;
+  background-color: rgba(148, 60, 60, 0.938);
+  width: 80%;
+  text-align: center;
+}
+.ultimo-pri{
+  flex-grow: 2;
+}
+.ultimo-seg{
+  flex-grow: 1;
+  height: 91%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.alta-env{
+  height: 55px;
+}
+.color1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color3{
+  display: flex;
+  justify-content: center;
+}
+.color5{
+  background-color: blue;
+}

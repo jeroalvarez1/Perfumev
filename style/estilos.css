@@ -1,0 +1,220 @@
+.barra_alta{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.titulo{
+    font-family: 'Anton', sans-serif;
+    color: rgba(28, 135, 223, 0.938);
+    background-color: rgba(255, 255, 255, 0.822);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.selector-partes-2{
+    background-color: rgba(255, 255, 255, 0.822);
+  }
+.articulo{
+    background-color: rgba(28, 135, 223, 0.938);
+}
+.flexible_end{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.flexible_start{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flexible_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.altura{
+    height: 50px;
+}
+.altura2{
+  height: 70px;
+}
+.altura3{
+  height: 60px;
+}
+.alturap{
+  height: 100%;
+}
+.margen{
+    margin-top: 1px;
+}
+.alta{
+  background-color: rgba(255, 255, 255, 0.884);
+}
+.titulo_alta_p{
+  font-family: 'Varela Round', sans-serif;
+
+  color: rgba(255, 255, 255, 0.884);
+  background-color: rgb(28, 135, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.porciento{
+  width: 50%;
+}
+.fila{
+  width: 80%;
+}
+.row_rows{
+  height: 720px;
+}
+.col_cols{
+  height: 100%;
+}
+.row_1{
+  height: 12.5%;
+}
+.heigth{
+  height: 100%;
+}
+.heigth-84{
+  height: 90%;
+}
+.width{
+  width: 100%;
+}
+.letra-boton{
+  font-size: 10px;
+}
+.alin-centro{
+  display: flex;
+  align-items: center;
+}
+.heigth-80{
+  height: 80%;
+}
+.margen-bajo{
+  margin-bottom: 3%;
+}
+.falta{
+  font-family: 'Anton', sans-serif;
+  color: rgba(223, 28, 28, 0.938);
+}
+.suficiente{
+  font-family: 'Anton', sans-serif;
+  color: rgba(20, 148, 20, 0.938);
+}
+.separador-1{
+  height: 15px;
+}
+.separador-2{
+  height: 50px;
+}
+.separador-3{
+  height: 3px;
+}
+.separador-4{
+  height: 8px;
+}
+.ancho{
+  width: 100%;
+}
+.back_blanco{
+  background-color: rgba(255, 255, 255, 0.631);
+}
+.back_blanco-1{
+  background-color: rgba(194, 193, 193, 0.631);
+}
+.back_blanco-2{
+  background-color: rgb(255, 255, 255);
+}
+.back_blanco-3{
+  background-color: rgba(255, 255, 255, 0.707);
+}
+.centro-flex{
+  justify-content: center;
+}
+.color6{
+  background-color: chartreuse;
+}
+.color7{
+  background-color: cornflowerblue;
+}
+.alinear{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.anchura{
+  width: 99.3%;
+}
+.pedido_cli{
+  font-family: 'Bebas Neue', cursive;
+  color: rgba(0, 0, 0, 0.938);
+  background-color: rgba(255, 255, 255, 0.822);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.letra_bebas{
+  font-family: 'Bebas Neue', cursive;
+  color: rgba(0, 0, 0, 0.938);
+}
+.fondo_azul{
+  background-color: rgba(28, 135, 223, 0.938);
+}
+.fondo-gris{
+  background-color: rgba(153, 153, 153, 0.741);
+}
+.fondo-blanco{
+  background-color: rgb(255, 255, 255);
+}
+.total{
+  width: 100%;
+  height: 100%;
+}
+/*ventana emergente*/
+.window-notice {
+  background: rgba(33, 41, 52, .85);
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  position: fixed;
+  z-index: 999;
+}
+.window-notice .content {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+  min-width: 320px !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.3rem;
+} 
+/*#########################*/
+.imgen{
+  width: 50px;
+  height: 50px;
+}
+.imgen-1{
+  width: 30px;
+  height: 30px;
+}
+.bt{
+  width: 100%;
+}
+.bebas{
+  font-family: 'Bebas Neue', cursive;
+  color: rgba(0, 0, 0, 0.938);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
